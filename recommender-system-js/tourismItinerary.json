@@ -1,0 +1,548 @@
+{
+    "simpleItineraries": [
+        {
+            "dayOfWeek": 6,
+            "visits": [
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b19d",
+                        "name": "Paseo Playa Paraíso",
+                        "description": "Paseo marítimo litoral pavimentado que circunda el litoral de la localidad de Playa Paraíso, dejando los complejos hoteleros a su espalda. Con zonas ajardinadas, va dando acceso para el descenso a diferentes playas",
+                        "geolocationPoint": null,
+                        "geolocationLineString": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [
+                                    -16.776183,
+                                    28.119972
+                                ],
+                                [
+                                    -16.77951,
+                                    28.123326
+                                ]
+                            ]
+                        },
+                        "geolocationPolygon": null,
+                        "town": "Guía de Isora",
+                        "postalCode": "38680",
+                        "applications": "Paseos por el litoral",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 20,
+                        "stayHourNumber": 3
+                    },
+                    "arrivalTime": "18:55:00",
+                    "departureTime": "21:57:00"
+                }
+            ]
+        },
+        {
+            "dayOfWeek": 0,
+            "visits": [
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b192",
+                        "name": "Rampa de Varadero",
+                        "description": "Pequeña rampa de varada resguardada con pequeñas embarcaciones de pesca artesanal en la zona de playa.",
+                        "geolocationPoint": {
+                            "x": -16.75729,
+                            "y": 28.101675,
+                            "type": "Point",
+                            "coordinates": [
+                                -16.75729,
+                                28.101675
+                            ]
+                        },
+                        "geolocationLineString": null,
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Pesca artesanal en barco. Acceso de canoas y kayaks",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 15,
+                        "stayHourNumber": 5
+                    },
+                    "arrivalTime": "10:00:00",
+                    "departureTime": "15:03:00"
+                },
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b18a",
+                        "name": "Playa Fañabe",
+                        "description": "Playa de arena dorada anexa a Playa Torviscas, enmarcada en el mismo espacio. Consta con dos beach clubs en su interior, que ofrecen servicio de bar y alquiler de hamacas, así como acceso a discapacitados, servicio de socorrismo y aseos y vestuarios.",
+                        "geolocationPoint": {
+                            "x": -16.737681,
+                            "y": 28.086823,
+                            "type": "Point",
+                            "coordinates": [
+                                -16.737681,
+                                28.086823
+                            ]
+                        },
+                        "geolocationLineString": null,
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Zona de baño turística. Zona de baño local. Zona de ocio y compras",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 15,
+                        "stayHourNumber": 5
+                    },
+                    "arrivalTime": "15:03:00",
+                    "departureTime": "20:06:00"
+                }
+            ]
+        },
+        {
+            "dayOfWeek": 1,
+            "visits": [
+                {
+                    "pointOfInterest": {
+                        "id": "62a627fe816135152f66b17a",
+                        "name": "Playa Los Tarajales",
+                        "description": "Conjunto de pequeñas calas de arena blanca con vegetación costera,  interrumpidas por bajíos que dan acceso al mar, en el extremo occidental del paseo marítimo de Los Cristianos. Cuenta con un beach club anexo, situado en el paseo, que sirve como alquiler de hamacas y servicio de restauración.  ",
+                        "geolocationPoint": {
+                            "x": -16.71213,
+                            "y": 28.047856,
+                            "type": "Point",
+                            "coordinates": [
+                                -16.71213,
+                                28.047856
+                            ]
+                        },
+                        "geolocationLineString": null,
+                        "geolocationPolygon": null,
+                        "town": "Arona",
+                        "postalCode": "38640",
+                        "applications": "Zona de baño local. Zona de baño turística. Zona de buceo",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 15,
+                        "stayHourNumber": 5
+                    },
+                    "arrivalTime": "10:00:00",
+                    "departureTime": "15:10:00"
+                },
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b199",
+                        "name": "Charcos El Marquéz",
+                        "description": "Sucesión de pozas de agua marina enmarcadas en el entorno litoral rocoso de la localidad de Playa Paraíso. Dispone de acceso mediante escaleras, y escalerillas metálicas para la entrada al agua. Sin otros servicios, el aparcamiento se lleva a cabo en las calles aledañas ",
+                        "geolocationPoint": {
+                            "x": -16.774301,
+                            "y": 28.11831,
+                            "type": "Point",
+                            "coordinates": [
+                                -16.774301,
+                                28.11831
+                            ]
+                        },
+                        "geolocationLineString": null,
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Zona de baño local. Zona de baño turística",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 15,
+                        "stayHourNumber": 5
+                    },
+                    "arrivalTime": "15:10:00",
+                    "departureTime": "20:20:00"
+                }
+            ]
+        },
+        {
+            "dayOfWeek": 2,
+            "visits": [
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b19a",
+                        "name": "Playa El Pinque",
+                        "description": "Playa de arena negra, rocas y callao pequeño, ubicada en una ensenada natural formada por dos cabos salientes en sus laterales. En su parte trasera, levantado sobre una superficie de hormigón, se encuentra un beach club privado, perteneciente a un hotel adyacente. El acceso se realiza mediante escaleras que descienden a la arena, y no dispone de servicios. El aparcamiento se realiza en las calles de las inmediaciones ",
+                        "geolocationPoint": {
+                            "x": -16.775954,
+                            "y": 28.119645,
+                            "type": "Point",
+                            "coordinates": [
+                                -16.775954,
+                                28.119645
+                            ]
+                        },
+                        "geolocationLineString": null,
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Zona de baño local. Zona de baño turística",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 15,
+                        "stayHourNumber": 5
+                    },
+                    "arrivalTime": "10:00:00",
+                    "departureTime": "15:02:00"
+                },
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b18b",
+                        "name": "Playa Torviscas",
+                        "description": "Extensión de playa de arena dorada, que forma conjunto con Playa Fañabe, rodeadas ambas de escolleras laterales y frontales. En su parte trasera transita el paseo marítimo con zona ajardinada con árboles, con locales de restauración, ocio y compras. Con bandera azul, dispone de servicio de socorrismo, aseos y vestuarios, juguetes náuticos flotantes, acceso a discapacitados y alquiler de hamacas. La zona de aparcamiento se realiza en las inmediaciones de la trasera de la playa",
+                        "geolocationPoint": {
+                            "x": -16.735897,
+                            "y": 28.082403,
+                            "type": "Point",
+                            "coordinates": [
+                                -16.735897,
+                                28.082403
+                            ]
+                        },
+                        "geolocationLineString": null,
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Zona de baño turística. Zona de baño local. Zona de ocio y compras",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 15,
+                        "stayHourNumber": 5
+                    },
+                    "arrivalTime": "15:02:00",
+                    "departureTime": "20:08:00"
+                }
+            ]
+        },
+        {
+            "dayOfWeek": 3,
+            "visits": [
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b191",
+                        "name": "Paseo de La Caleta",
+                        "description": "Paseo litoral de la localidad de La Caleta que serpenta el bajío y da acceso a zonas de baño. Rodeado de casas vecinales que conviven con restaurantes con terrazas, no dispone de otros servicios",
+                        "geolocationPoint": null,
+                        "geolocationLineString": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [
+                                    -16.755572,
+                                    28.098732
+                                ],
+                                [
+                                    -16.75715,
+                                    28.1017
+                                ]
+                            ]
+                        },
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Paseos por el litoral",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 20,
+                        "stayHourNumber": 3
+                    },
+                    "arrivalTime": "10:00:00",
+                    "departureTime": "13:03:00"
+                },
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b185",
+                        "name": "Paseo Los Cristianos-Las Américas",
+                        "description": "Extenso paseo marítimo, que se conforma de varias avenidas litorales peatonales que se van anexando, circunvala todo el litoral de las localidades de Los Cristianos y Playa de Las Américas. Con una sucesión de playas en su itinerario, y arbolado en su mayor parte, cuenta con todo tipo de servicios de restauración, ocio y venta de excursiones en su lateral. Tras esta primera línea de comercios, se erigen varios hoteles, centros comerciales y otras edificaciones. ",
+                        "geolocationPoint": null,
+                        "geolocationLineString": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [
+                                    -16.710904,
+                                    28.044745
+                                ],
+                                [
+                                    -16.73479,
+                                    28.076058
+                                ]
+                            ]
+                        },
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Paseos por el litoral. Zona de ocio y compras",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 20,
+                        "stayHourNumber": 3
+                    },
+                    "arrivalTime": "13:03:00",
+                    "departureTime": "16:07:00"
+                },
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b18d",
+                        "name": "Playa del Duque",
+                        "description": "Playa de arena gris con un saliente natural en su parte izquierda, y escolleras en su frontal y derecha. Con el paseo marítimo arbolado a su espalda, y un hotel que da acceso directo al paseo, cuenta con Bandera Azul. Dispone de servicio de socorrismo, aseos y vestuarios y alquiler de hamacas y sombrillas. El aparcamiento se realiza en las calles de la trasera de la playa.",
+                        "geolocationPoint": {
+                            "x": -16.743719,
+                            "y": 28.091316,
+                            "type": "Point",
+                            "coordinates": [
+                                -16.743719,
+                                28.091316
+                            ]
+                        },
+                        "geolocationLineString": null,
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Zona de baño turística. Zona de baño local",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 15,
+                        "stayHourNumber": 5
+                    },
+                    "arrivalTime": "16:07:00",
+                    "departureTime": "21:09:00"
+                }
+            ]
+        },
+        {
+            "dayOfWeek": 4,
+            "visits": [
+                {
+                    "pointOfInterest": {
+                        "id": "62a627fe816135152f66b179",
+                        "name": "Paseo Palm-Mar",
+                        "description": "Paseo marítimo que circunda el litoral del Palm-Mar. Pavimentado y poblado de vegetación costera, de acceso a las zonas de baño y zonas rocosas del litoral. ",
+                        "geolocationPoint": null,
+                        "geolocationLineString": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [
+                                    -16.705567,
+                                    28.02218
+                                ],
+                                [
+                                    -16.70441,
+                                    28.027899
+                                ]
+                            ]
+                        },
+                        "geolocationPolygon": null,
+                        "town": "Arona",
+                        "postalCode": "38640",
+                        "applications": "Paseos por el litoral",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 20,
+                        "stayHourNumber": 3
+                    },
+                    "arrivalTime": "10:00:00",
+                    "departureTime": "13:12:00"
+                },
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b193",
+                        "name": "Charcos del Muelle",
+                        "description": "Zonas de acceso al agua mediante escalerillas metálicas dispuestas sobre las formaciones rocosas del litoral de La Caleta",
+                        "geolocationPoint": {
+                            "x": -16.756863,
+                            "y": 28.100956,
+                            "type": "Point",
+                            "coordinates": [
+                                -16.756863,
+                                28.100956
+                            ]
+                        },
+                        "geolocationLineString": null,
+                        "geolocationPolygon": null,
+                        "town": "Adeje",
+                        "postalCode": "38670",
+                        "applications": "Zona de baño local. Zona de baño turística",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 15,
+                        "stayHourNumber": 5
+                    },
+                    "arrivalTime": "13:12:00",
+                    "departureTime": "18:26:00"
+                },
+                {
+                    "pointOfInterest": {
+                        "id": "62a627ff816135152f66b1a2",
+                        "name": "Paseo Marítimo Playa San Juan",
+                        "description": "Paseo marítimo que se prolonga por el litoral de la localidad pesquera de Playa de San Juan. Pavimentado, comienza en el extremo de la playa para continuar internándose en la zona urbanizada, dejando litoral rocoso del lado del mar.",
+                        "geolocationPoint": null,
+                        "geolocationLineString": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [
+                                    -16.81645,
+                                    28.179929
+                                ],
+                                [
+                                    -16.82063,
+                                    28.185423
+                                ]
+                            ]
+                        },
+                        "geolocationPolygon": null,
+                        "town": "Guía de Isora",
+                        "postalCode": "38680",
+                        "applications": "Paseos por el litoral",
+                        "categories": [
+                            "SUNANDBEACH"
+                        ],
+                        "openingDays": [
+                            "MONDAY",
+                            "TUESDAY",
+                            "WEDNESDAY",
+                            "THURSDAY",
+                            "FRIDAY",
+                            "SATURDAY",
+                            "SUNDAY"
+                        ],
+                        "hourly": null,
+                        "averageCost": 20,
+                        "stayHourNumber": 3
+                    },
+                    "arrivalTime": "18:26:00",
+                    "departureTime": "21:37:00"
+                }
+            ]
+        }
+    ]
+}

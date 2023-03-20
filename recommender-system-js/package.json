@@ -1,0 +1,11 @@
+{
+  "name": "recommender-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "execute": "node index.js pois.json travelPreferences.json timeBetweenPairPOIS.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

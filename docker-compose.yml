@@ -1,0 +1,49 @@
+version: '3.7'
+
+services:
+
+  # Back End of production
+  back-end-prod:
+    image: softwarebuild/tourism-tfg-back-end:latest
+    container_name: tourism-tfg-back-end-prod
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb+srv://alu0101206479:alu0101206479@cluster-tourism-tfg.h0tu9.mongodb.net/Tourism-TFG-Database?retryWrites=true&w=majority
+      - spring_profiles_active=prod
+    profiles: ["prod"]
+
+  # Back End of develop
+  back-end-dev:
+    image: softwarebuild/tourism-tfg-back-end:latest
+    container_name: tourism-tfg-back-end-dev
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongo:27017/tourism-tfg
+      - spring_profiles_active=dev
+    profiles: ["dev"]
+    depends_on:
+      - mongodb
+
+    
+  # MongoDB
+  mongodb:
+    image: mongo:latest
+    container_name: mongo
+    command: mongod --port 27017
+    ports:
+      - "27017:27017"
+    volumes:
+      - "/data/db"
+    profiles: ["dev"]
+
+
+
+  # Front End
+  front-end:
+    image: softwarebuild/tourism-tfg-front-end:latest
+    container_name: tourism-tfg-front-end
+    ports:
+      - "8081:80"
+    profiles: ["dev", "prod"]

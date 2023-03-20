@@ -1,0 +1,42 @@
+name: docker_image_back_end_ci
+
+# Trigger pushes on back-end directory
+on:
+  push:
+    branches: 
+      - main
+    paths: 
+      - back-end/**
+
+# Run jobs on back-end directory
+defaults:
+  run:
+    working-directory: back-end
+
+jobs:
+  compilation-code-and-push-docker-image:
+    runs-on: ubuntu-latest
+
+    name: Code compilation Spring and push Docker image to Docker Hub
+    steps:
+      - 
+        uses: actions/checkout@main
+      -
+        name: Setup java
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      - 
+        name: Code compilation Spring
+        run: (mvn -f pom.xml clean install) && (mkdir -p target/dependency) && (cd target/dependency; jar -xf ../*.jar)
+      -
+        name: Build and push Docker image
+        uses: mr-smithers-excellent/docker-build-push@v5
+        with:
+          image: softwarebuild/tourism-tfg-back-end
+          tags: latest
+          registry: docker.io
+          directory: back-end
+          dockerfile: back-end/Dockerfile
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}

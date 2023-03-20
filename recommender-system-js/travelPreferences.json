@@ -1,0 +1,40 @@
+{
+    "id": "1",
+    "destinationGeolocation": {
+        "x": -16.75449371337891,
+        "y": 28.130733274467012,
+        "type": "Point",
+        "coordinates": [
+            -16.75449371337891,
+            28.130733274467012
+        ]
+    },
+    "budget": 1000.0,
+    "activities": [
+        "SUNANDBEACH",
+        "GASTRONOMY"
+    ],
+    "transport": false,
+    "departureDatetime": [
+        2022,
+        5,
+        19,
+        15,
+        55
+    ],
+    "returnDatetime": [
+        2022,
+        5,
+        25,
+        1,
+        0
+    ],
+    "tourismStartTime": [
+        10,
+        0
+    ],
+    "tourismEndTime": [
+        22,
+        0
+    ]
+}

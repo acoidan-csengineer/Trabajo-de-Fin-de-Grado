@@ -1,0 +1,37 @@
+name: docker_image_front_end_ci
+
+# Trigger pushes on front-end directory
+on:
+  push:
+    branches: 
+      - main
+    paths: 
+      - front-end/**
+
+# Run jobs on front-end directory
+defaults:
+  run:
+    working-directory: front-end
+
+jobs:
+  path-context:
+    runs-on: ubuntu-latest
+        
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2.3.2
+      -
+        name: Install dependencies
+        run: npm install
+      -
+        name: Build and push Docker image
+        uses: mr-smithers-excellent/docker-build-push@v5
+        with:
+          image: softwarebuild/tourism-tfg-front-end
+          tags: latest
+          registry: docker.io
+          directory: front-end
+          dockerfile: front-end/Dockerfile
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
