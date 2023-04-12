@@ -28,5 +28,5 @@ main {
 
 .br-10px {
   border-radius: 10px !important;
-}
+} 
 </style>
