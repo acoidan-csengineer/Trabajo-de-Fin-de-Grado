@@ -56,7 +56,7 @@ Todos estos componentes descritos son usados en las vistas, que se encuentran en
 
 ## Ejecución
 
-Para ejecutar el front-end de manera independiente, se deberá primeramente ejecutar el back-end de manera independiente (La manera de hacerlo se puede encontrar en el [README.md](https://github.com/cexposit/tfg-tourism/blob/main/back-end/README.md) del back-end). Posteriormente se deberán instalar todas las dependencias del proyecto front-end con el comando:
+Para ejecutar el front-end de manera independiente, se deberá primeramente ejecutar el back-end de manera independiente (La manera de hacerlo se puede encontrar en el [README.md](https://github.com/acoidan-csengineer/Trabajo-de-Fin-de-Grado/blob/main/README.md) del back-end). Posteriormente se deberán instalar todas las dependencias del proyecto front-end con el comando:
 
 ```bash
 yarn install
