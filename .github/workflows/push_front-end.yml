@@ -28,7 +28,7 @@ jobs:
         name: Build and push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: softwarebuild/tourism-tfg-front-end
+          image: acoidancsengineer/tourism-tfg-front-end
           tags: latest
           registry: docker.io
           directory: front-end

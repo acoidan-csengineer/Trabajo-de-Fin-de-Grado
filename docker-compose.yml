@@ -4,7 +4,7 @@ services:
 
   # Back End of production
   back-end-prod:
-    image: softwarebuild/tourism-tfg-back-end:latest
+    image: acoidancsengineer/tourism-tfg-back-end:latest
     container_name: tourism-tfg-back-end-prod
     ports:
       - "8080:8080"
@@ -15,7 +15,7 @@ services:
 
   # Back End of develop
   back-end-dev:
-    image: softwarebuild/tourism-tfg-back-end:latest
+    image: acoidancsengineer/tourism-tfg-back-end:latest
     container_name: tourism-tfg-back-end-dev
     ports:
       - "8080:8080"
@@ -42,7 +42,7 @@ services:
 
   # Front End
   front-end:
-    image: softwarebuild/tourism-tfg-front-end:latest
+    image: acoidancsengineer/tourism-tfg-front-end:latest
     container_name: tourism-tfg-front-end
     ports:
       - "8081:80"
