@@ -50,7 +50,7 @@ public class PointOfInterestController {
 
 
         this.service.save(resource);
-        return new ResponseEntity<>(resource, HttpStatus.CREATED); 
+        return new ResponseEntity<>(resource, HttpStatus.CREATED);
     
     }
 
